@@ -1,0 +1,43 @@
+{
+  "name": "the-dial-tone",
+  "version": "1.0.0",
+  "description": "## about With the deluge of new content produced each day on the internet, I found that my “to read” folder was growing at an unsustainable rate. Along with each new stream of content that I found, each new article also brought its own web of referenced material, follow-up reading or new subscription opportunities, only adding to my backlog. To combat this, I set out to filter and read articles found in the past 24 hours. A pleasant side effect of this was a curated, condensed list of interesting articles from the internet. From there, the “thedialtone” was born.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build":"node ./scripts/build.js -i links.txt > docs/dt.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acwhittam/the-dial-tone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acwhittam/the-dial-tone/issues"
+  },
+  "homepage": "https://github.com/acwhittam/the-dial-tone#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "fluture": "^10.3.1",
+    "minimist": "^1.2.0",
+    "natural": "^0.6.3",
+    "node-fetch": "^2.3.0",
+    "node-rake": "^1.0.1",
+    "node-summary": "^1.2.0",
+    "q": "^1.5.1",
+    "ramda": "^0.26.1",
+    "sentiment": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
