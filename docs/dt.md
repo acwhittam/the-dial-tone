@@ -59,6 +59,8 @@
 * [Open population datasets and open challenges - Facebook Code](https://code.fb.com/connectivity/open-population-datasets-and-open-challenges/) [code.fb.com]
 * [The Biggest Dictionary in the World](https://www.ebayinc.com/stories/blogs/tech/the-biggest-dictionary-in-the-world/) [www.ebayinc.com]
 * [All Circuits are Busy Now: The 1990 AT&T Long Distance Network Collapse](http://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse.html) [users.csc.calpoly.edu]
+* [Secret Back Door in Some U.S. Phones Sent Data to China, Analysts Say](https://www.nytimes.com/2016/11/16/us/politics/china-phones-software-security.html) [www.nytimes.com]
+* [The Most Effective Weapon on the Modern Battlefield is Concrete - Modern War Institute](https://mwi.usma.edu/effective-weapon-modern-battlefield-concrete/) [mwi.usma.edu]
 ## Books
 * [Skunk Works](https://www.goodreads.com/book/show/101438.Skunk_Works) [www.goodreads.com]
 * [Six Days of War](https://www.goodreads.com/book/show/225897.Six_Days_of_War) [www.goodreads.com]
@@ -76,8 +78,5 @@
 * [Visualize Data Sets on the Web with Uber Engineering’s deck.gl Framework](https://eng.uber.com/deck-gl-framework/) [eng.uber.com]
 * [Airflow: a workflow management platform](https://medium.com/airbnb-engineering/airflow-a-workflow-management-platform-46318b977fd8) [medium.com]
 * [Mapillary](https://www.mapillary.com/) [www.mapillary.com]
-## undefined
-* [Secret Back Door in Some U.S. Phones Sent Data to China, Analysts Say](https://www.nytimes.com/2016/11/16/us/politics/china-phones-software-security.html) [www.nytimes.com]
-* [The Most Effective Weapon on the Modern Battlefield is Concrete - Modern War Institute](https://mwi.usma.edu/effective-weapon-modern-battlefield-concrete/) [mwi.usma.edu]
 ## Videos
 * [Story of Light - Bell Labs - Future Impossible](https://youtu.be/dLtdVN_oOSc) [youtu.be]
