@@ -48,7 +48,7 @@ const buildMarkdown = ([obj, response]) => {
       R.dropWhile(x => x !== '{'),
     )(data));
   }
-
+  title = R.replace(/\|/g, '-', title);
   return (R.set(R.lensProp('markdown'), `* [${title}](${link}) [${host}]`, obj));
 };
 
@@ -91,6 +91,7 @@ const run = async function (data, filter = 'all') {
   const markdown = (R.compose(
     R.reduce((acc, value) => {
       const md = (R.compose(
+        R.prepend('\n'),
         R.prepend(`## ${value}`),
         R.pluck('markdown'),
         R.filter(R.propEq('topic', value)),
