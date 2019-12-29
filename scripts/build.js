@@ -10,11 +10,13 @@ const textOf = R.curry((selector, $) => {
   const value = select.text();
   return R.isNil(value) ? false : value;
 });
+
 const contentOf = R.curry((selector, $) => {
   const select = $(selector);
   const value = select.attr('content');
   return R.isNil(value) ? false : value;
 });
+
 const getTitle = function ($) {
   return (R.compose(
     R.trim,
@@ -32,11 +34,12 @@ const getTitle = function ($) {
   )($));
 };
 
-const buildMarkdown = function ([link, response]) {
+const buildMarkdown = ([obj, response]) => {
+  const { link } = obj;
   const { data } = response;
   const { host } = url.parse(link);
-  const $ = cheerio.load(data);
-  let title = getTitle($);
+
+  let title = data !== 'Error' ? getTitle(cheerio.load(data)) : 'Error';
 
   if (R.test(/;<\/x>/, data)) {
     title = (R.compose(
@@ -46,42 +49,58 @@ const buildMarkdown = function ([link, response]) {
     )(data));
   }
 
-  return `* [${title}](${link}) [${host}]`;
+  return (R.set(R.lensProp('markdown'), `* [${title}](${link}) [${host}]`, obj));
 };
 
-const run = async function (data) {
-  const lines = R.compose(R.map(R.split(/\s+/)), R.reject(R.isEmpty), R.split(/\n/))(data);
-  const links = (R.map(R.nth(0))(lines));
-  const topics = (R.map(R.nth(1))(lines));
+const run = async function (data, filter = 'all') {
+  const objects = (R.compose(
+    R.when(R.always(filter !== 'all'), R.filter(R.propEq('issue', filter))),
+    R.map(
+      R.compose(
+        ([link, topic, issue]) => ({
+          link,
+          topic,
+          issue,
+        }),
+        R.split(/\t+/),
+      ),
+    ),
+    R.reject(R.isEmpty),
+    R.split(/\n/),
+  )(data));
+
 
   let responses;
   let requests;
-
+  const get = R.compose(
+    R.otherwise(() => ({ data: 'Error' })),
+    axios.get,
+  );
   try {
-    requests = (R.map(axios.get)(links));
+    requests = (R.map(R.compose(get, R.prop('link')))(objects));
     responses = await Promise.all(requests);
   } catch (err) {
     console.log(err);
   }
 
-  const results = R.compose(
-    R.zip(topics),
+  const results = (R.compose(
     R.map(buildMarkdown),
-    R.zip(links),
-  )(responses);
+    R.zip(objects),
+  )(responses));
 
   const markdown = (R.compose(
     R.reduce((acc, value) => {
       const md = (R.compose(
         R.prepend(`## ${value}`),
-        R.map(R.nth(1)),
-        R.filter(R.compose(R.equals(value), R.nth(0))),
+        R.pluck('markdown'),
+        R.filter(R.propEq('topic', value)),
       )(results));
 
       return R.concat(acc, md);
     }, []),
     R.uniq,
-  )(topics));
+    R.pluck('topic'),
+  )(objects));
 
 
   process.stdout.write(
@@ -89,4 +108,4 @@ const run = async function (data) {
   );
 };
 
-run(fs.readFileSync(args.i, 'utf8'));
+run(fs.readFileSync(args.i, 'utf8'), args.f);

@@ -1,0 +1,57 @@
+“My attitude is like Edison’s, who found a solvent for rubber by putting bits of rubber in every solution he could think of, and beat all those scientists who were approaching the problem theoretically. ”  —  Keith Johnstone, Impro: Improvisation and the Theatre
+“A business leader’s job is to create great teams that do amazing work on time. That’s it. That’s the job of management.”  — Patty McCord, Powerful: Building a Culture of Freedom and Responsibility
+“If the software doesn’t have to work, you can always meet any other requirement.”  — Gerald Weinberg, American computer scientist
+“First do it, then do it right, then do it better”  — Addy Osmani, engineering manager at Google 
+“Life shrinks or expands according to one’s courage.”  — Anaïs Nin, Essayist
+“I very frequently get the question: ‘what’s going to change in the next 10 years?’I almost never get the question: ‘what’s not going to change in the next 10 years?’I submit to you that the second question is actually the more important of the two.”  — Jeff Bezos, Chief Executive Officer of Amazon
+“I have to change to stay the same.”  — Willem de Kooning, Artist
+“Remember that there is no code faster than no code.”  — Taligent's Guide to Designing Programs
+“When it comes to innovation, an ounce of execution is worth more than a ton of theory”  — Phil McKinney, American businessman
+“Keep it simple, stupid”  — Kelly Johnson, American aeronautical engineer
+“Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better.”  —  E. W. Dijkstra, Software engineer
+“What you do is what matters, not what you think or say or plan.”  — Jason Fried, Rework
+“A system is never finished being developed until it ceases to be used.”  — Gerald Weinberg, American computer scientist
+“The first principle is that you must not fool yourself – and you are the easiest person to fool.”  — Richard Feynman, American physicist
+“In preparing for battle I have always found that plans are useless, but planning is indispensable.”  — Dwight D. Eisenhower,  34th President of the United States
+“At the heart of this culture is an understanding that an organization’s ability to learn, and translate that learning into action rapidly, is the ultimate competitive business advantage.”  — Jack Welch, former CEO of General Electric
+“Don’t be in a rush to get big. Be in a rush to have a great product.”  — Eric Ries, author of The Lean Startup
+“It is fundamentally the confusion between effectiveness and efficiency that stands between doing the right things and doing things right. There is surely nothing quite so useless as doing with great efficiency what should not be done at all.”  — Peter Drucker, Managing for Business Effectiveness
+“Don’t wish it was easier; wish you were better. Don’t wish for less problems; wish for more skills. Don’t wish for less challenges; wish for more wisdom”  — Jim Rohn, American entrepreneur
+“The greatest test of your expertise is how explicitly you understand your assumptions.”  — Kevin Ashton, How to Fly a Horse: The Secret History of Creation, Invention, and Discovery
+“What I cannot create, I do not understand.”  — Richard Feynman, American physicist
+“Much of the essence of building a program is in fact the debugging of the specification.”  — Fred Brooks, American software engineer
+“The essence of strategy is choosing what not to do.”  — Michael Porter,  Bishop William Lawrence University Professor at Harvard Business School
+“You can’t allow tradition to get in the way of innovation. There’s a need to respect the past, but it’s a mistake to revere your past. ”  — Bob Iger, Chief Executive Officer of Disney
+“Everyone is entitled to their own opinions, but they are not entitled to their own facts.”  — Daniel Patrick Moynihan, American politician, sociologist, and diplomat
+“... great innovation is built on existing ideas, repurposed with vision.”  —  Jake Knapp, Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days
+“Assume the best but hire paranoid people.”  — Evan Williams, CEO of Medium, co-founder of Twitter
+“The culture of any organization is shaped by the worst behavior the leader is willing to tolerate.”  — Steve Gruenert and Todd Whitaker, School Culture Rewired
+“In the most dysfunctional organizations, signaling that work is being done becomes a better strategy for career advancement than actually doing work...”  — Peter Thiel, Zero to One
+“A corporation is a living organism; it has to continue to shed its skin. Methods have to change. Focus has to change. Values have to change. The sum total of those changes is transformation.”  — Andrew Grove, Former Chairman and CEO of Intel
+“... the harder the conflict, the more glorious the triumph. What we obtain too cheap, we esteem too lightly: it is dearness only that gives every thing its value.”  — Thomas Paine, The Crisis No. I
+“I came to see, in my time at IBM, that culture isn’t just one aspect of the game, it is the game. In the end, an organization is nothing more than the collective capacity of its people to create value.”  — Louis V. Gerstner, Jr. Former Chairman and CEO of IBM
+“Don’t be intimidated by what you don’t know. That can be your greatest strength and ensure that you do things differently from everyone else.”  — Sara Blakely, founder of Spanx
+“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”  — Martin Fowler, Refactoring: Improving the Design of Existing Code
+“We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too.”  — John F. Kennedy, 35th U.S. President, Address at Rice University on the Nation's Space Effort
+“If you can’t feed a team with two pizzas, it’s too large.”  — Jeff Bezos, Founder, Amazon
+“Focusing is about saying no.”  — Steve Jobs, Co-founder, Chairman, and CEO of Apple Inc.
+“The absolute truth is that if you don’t know what you want, you won’t get it.”  — Andrew S. Grove, High Output Management
+“...perfection is finally attained not when there is no longer anything to add, but when there is no longer anything to take away … ”  — Antoine de Saint Exupéry, French writer
+“To improve is to change, so to be perfect is to have changed often.”  — Winston Churchill, British Prime Minister (1940-1945,1951-1955)
+“Management is efficiency in climbing the ladder of success; leadership determines whether the ladder is leaning against the right wall.”  — Stephen R. Covey, 7 Habits of Highly Effective People
+“I am always doing what I cannot do yet, in order to learn how to do it.”  — Vincent Van Gogh, Painter
+“Leadership is about making others better as a result of your presence and making sure that impact lasts in your absence.”  — Sheryl Sandberg, Lean In
+“If you want to succeed, double your failure rate”  — Thomas J. Watson, CEO of IBM (1911–1956)
+“You manage things; you lead people.”  — Grace M. Hopper, United States Navy Rear Admiral.
+“We must dare to be great; and we must realize that greatness is the fruit of toil and sacrifice and high courage…”  — Theodore Roosevelt, 26th U.S. President
+“Growth and comfort do not coexist”  — Ginni Rometty, CEO of IBM
+“Discipline and freedom are not mutually exclusive, but mutually dependent because without discipline we would sink into chaos.”  — Paulo Coelho
+“Done is better than perfect.”  — Sheryl Sandberg
+“Others have seen what is and asked why. I have seen what could be and asked why not.”  — Pablo Picasso
+“Never tell people how to do things. Tell them what to do and they will surprise you with their ingenuity.”  — George S. Patton
+“Simple things should be simple, complex things should be possible.”  — Alan Kay
+“Given enough eyeballs, all bugs are shallow.”  — Linus's Law
+“Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations”  — Conway's law
+“You have to start with the customer experience and work backwards to the technology”  — Steve Jobs
+“We will encourage you to develop the three great virtues of a programmer: laziness, impatience, and hubris.”  — Larry Wall, Programming Perl
+“Work expands so as to fill the time available for its completion.”  — Parkinson's Law
