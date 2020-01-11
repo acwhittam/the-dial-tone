@@ -6,6 +6,6 @@ I hope you enjoy it.
 Andy
 
 ## issues
-* [#66](66.md)
 * [#67](67.md)
+* [#66](66.md)
 
