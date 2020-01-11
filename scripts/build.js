@@ -62,7 +62,7 @@ const run = async function (data, filter = 'all') {
           topic,
           issue,
         }),
-        R.split(/\t+/),
+        R.split(/\s+/),
       ),
     ),
     R.reject(R.isEmpty),
