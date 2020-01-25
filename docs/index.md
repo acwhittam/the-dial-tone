@@ -5,6 +5,9 @@ I hope you enjoy it.
 
 Andy
 
+## subscribe
+[email](http://eepurl.com/cJAaYT)
+
 ## issues
 
 [#67](67.md) | *01/11/2020*  
