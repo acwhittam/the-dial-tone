@@ -1473,7 +1473,27 @@ https://hbr.org/2010/07/how-will-you-measure-your-life | Management/Culture | #6
 https://sites.hks.harvard.edu/fs/rzeckhau/Estimative_Probability.pdf | News/Other | #67
 https://www.technologyreview.com/s/613899/machine-learning-has-been-used-to-automatically-translate-long-lost-languages/ | News/Other | #67
 https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html | The Speed Dial | #67
-https://youtu.be/-G8YmRJ__Q0
-https://erikmhsiao.github.io/de-morgans-laws/
-https://www.newyorker.com/magazine/2020/01/06/the-strangeness-of-grief
-https://martinfowler.com/bliki/WaterfallProcess.html
+https://youtu.be/-G8YmRJ__Q0  | Books/Podcasts/Videos | #68
+https://open.nytimes.com/what-if-every-news-photo-on-social-media-showed-contextual-information-8936cf4e8c45 | News/Other | #68
+https://www.netflix.com/title/80057883  | Books/Podcasts/Videos | #68
+https://www.wired.com/story/ai-epidemiologist-wuhan-public-health-warnings/ | The Speed Dial | #68
+https://arr.am/2020/01/23/noticingconfusion/  | News/Other | #68
+https://news.mit.edu/2019/model-beats-wall-street-forecasts-business-sales-1219  | News/Other | #68
+https://hbr.org/2019/03/the-feedback-fallacy  | Management/Culture | #68
+https://overreacted.io/goodbye-clean-code/   | The Speed Dial | #68
+https://m.signalvnoise.com/i-went-to-see-a-movie-and-instead-i-saw-the-future/  | News/Other | #68
+https://eng.uber.com/engineering-sql-support-on-apache-pinot/  | Technical | #68
+https://dev.fitbit.com/  | Technical | #68
+https://8thlight.com/blog/claudia-richman/2020/01/21/career-grid.html  | Management/Culture | #68
+https://davidwalsh.name/pornhub-interview  | Technical | #68
+https://www.fluentcpp.com/2020/01/17/technical-debt-is-like-a-tetris-game/   | Development/Releases | #68
+https://kwokchain.com/2019/08/16/the-arc-of-collaboration/  | Management/Culture | #68
+https://tech.ebayinc.com/engineering/speed-by-a-thousand-cuts/ | Technical | #68
+https://www.bbc.co.uk/programmes/m000d6yy | Books/Podcasts/Videos | #68
+https://www.wired.com/story/secret-history-facial-recognition/ | News/Other | #68
+https://www.newyorker.com/tech/annals-of-technology/the-one-traffic-light-town-with-some-of-the-fastest-internet-in-the-us | News/Other | #68
+https://medium.com/dailymotion/how-dailymotion-hacked-its-feature-team-project-model-to-shorten-time-to-market-618232f671da  | Development/Releases | #68
+https://queue.acm.org/detail.cfm?ref=rss&id=3380780  | Development/Releases | #68
+https://blog.novoda.com/how-to-make-innovation-labs-succeed/ | Management/Culture | #68
+https://www.goodreads.com/book/show/39857666-from-russia-with-blood?from_search=true&qid=GLurVQErrU | Books/Podcasts/Videos | #68
+https://www.cbsnews.com/news/zaza-kanto-a-capella-group-young-boys-songs-of-joy-rise-from-the-slums-of-madagascar/ |  The Speed Dial | #68

@@ -100,11 +100,23 @@ const run = async function (data, filter = 'all') {
 
       return R.concat(acc, md);
     }, []),
+    R.sortBy(R.cond([
+      [R.equals('The Speed Dial'), R.always(1)],
+      [R.equals('Management/Culture'), R.always(2)],
+      [R.equals('Development/Releases'), R.always(3)],
+      [R.equals('Technical'), R.always(4)],
+      [R.equals('News/Other'), R.always(5)],
+      [R.equals('Books/Podcasts/Videos'), R.always(6)],
+      [R.T, R.always(10)],
+
+    ])),
     R.uniq,
     R.pluck('topic'),
   )(objects));
 
-
+  process.stdout.write(
+    `# ${filter} \n`,
+  );
   process.stdout.write(
     markdown.join('\n'),
   );
