@@ -6,7 +6,7 @@ I hope you enjoy it.
 Andy
 
 ## subscribe
-[email](http://eepurl.com/cJAaYT)
+[email](https://tinyletter.com/acwhittam)
 
 ## issues
 
