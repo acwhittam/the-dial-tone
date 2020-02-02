@@ -3,7 +3,29 @@ const cheerio = require('cheerio');
 const url = require('url');
 const args = require('minimist')(process.argv.slice(2));
 const fs = require('fs');
-const axios = require('axios');
+const { Future, parallel } = require('fluture');
+
+const fetch = require('node-fetch');
+
+const get = obj => Future((reject, resolve) => {
+  fetch(obj.link)
+    .then((res) => {
+      if (res.ok) {
+        return res;
+      }
+      throw new Error(res.status);
+    })
+    .then(res => res.text())
+    .then((text) => {
+      resolve(R.assoc('data', text, obj));
+    })
+    .catch(() => {
+      resolve(R.assoc('data', 'Error', obj));
+    });
+  setTimeout(() => {
+    resolve(R.assoc('data', 'Error', obj));
+  }, 5000);
+});
 
 const textOf = R.curry((selector, $) => {
   const select = $(selector);
@@ -34,12 +56,11 @@ const getTitle = function ($) {
   )($));
 };
 
-const buildMarkdown = ([obj, response]) => {
-  const { link } = obj;
-  const { data } = response;
+const buildMarkdown = (obj) => {
+  const { link, data } = obj;
   const { host } = url.parse(link);
 
-  let title = data !== 'Error' ? getTitle(cheerio.load(data)) : 'Error';
+  let title = data !== 'Error' ? getTitle(cheerio.load(data)) : data;
 
   if (R.test(/;<\/x>/, data)) {
     title = (R.compose(
@@ -49,77 +70,61 @@ const buildMarkdown = ([obj, response]) => {
     )(data));
   }
   title = R.replace(/\|/g, '-', title);
-  return (R.set(R.lensProp('markdown'), `* [${title}](${link}) [${host}]`, obj));
+  const md = title !== 'Error'
+    ? `* [${title}](${link}) [${host}]`
+    : `* &#9888; [${link}](${link}) [${host}]`;
+  return (R.assoc('markdown', md, obj));
 };
 
-const run = async function (data, filter = 'all') {
-  const objects = (R.compose(
-    R.when(R.always(filter !== 'all'), R.filter(R.propEq('issue', filter))),
-    R.map(
-      R.compose(
-        ([link, topic, issue]) => ({
-          link,
-          topic,
-          issue,
-        }),
-        R.map(R.trim),
-        R.split(/\|/),
-      ),
-    ),
-    R.reject(R.isEmpty),
-    R.split(/\n/),
-  )(data));
 
+const processLine = R.compose(
+  ([link, topic, issue]) => ({ link, topic, issue }),
+  R.map(R.trim),
+  R.split(/\|/),
+);
+const topicScore = R.compose(
+  R.cond([
+    [R.equals('The Speed Dial'), R.always(1)],
+    [R.equals('Management/Culture'), R.always(2)],
+    [R.equals('Development/Releases'), R.always(3)],
+    [R.equals('Technical'), R.always(4)],
+    [R.equals('News/Other'), R.always(5)],
+    [R.equals('Books/Podcasts/Videos'), R.always(6)],
+    [R.T, R.always(10)],
+  ]),
+  R.prop('topic'),
+);
 
-  let responses;
-  let requests;
-  const get = R.compose(
-    R.otherwise(() => ({ data: 'Error' })),
-    axios.get,
-  );
-  try {
-    requests = (R.map(R.compose(get, R.prop('link')))(objects));
-    responses = await Promise.all(requests);
-  } catch (err) {
+const { f: filterTag, i: filePath } = args;
+
+const futures = R.compose(
+  R.chain(R.map(buildMarkdown)),
+  R.map(get),
+  R.when(R.always(filterTag !== 'all'), R.filter(R.propEq('issue', filterTag))),
+  R.sortBy(topicScore),
+  R.map(processLine),
+  R.reject(R.isEmpty),
+  R.split(/\n/),
+)(fs.readFileSync(filePath, 'utf8'));
+
+parallel(Infinity)(futures).fork(
+  (err) => {
     console.log(err);
-  }
-
-  const results = (R.compose(
-    R.map(buildMarkdown),
-    R.zip(objects),
-  )(responses));
-
-  const markdown = (R.compose(
-    R.reduce((acc, value) => {
-      const md = (R.compose(
-        R.prepend('\n'),
-        R.prepend(`## ${value}`),
-        R.pluck('markdown'),
-        R.filter(R.propEq('topic', value)),
-      )(results));
-
-      return R.concat(acc, md);
-    }, []),
-    R.sortBy(R.cond([
-      [R.equals('The Speed Dial'), R.always(1)],
-      [R.equals('Management/Culture'), R.always(2)],
-      [R.equals('Development/Releases'), R.always(3)],
-      [R.equals('Technical'), R.always(4)],
-      [R.equals('News/Other'), R.always(5)],
-      [R.equals('Books/Podcasts/Videos'), R.always(6)],
-      [R.T, R.always(10)],
-
-    ])),
-    R.uniq,
-    R.pluck('topic'),
-  )(objects));
-
-  process.stdout.write(
-    `# ${filter} \n`,
-  );
-  process.stdout.write(
-    markdown.join('\n'),
-  );
-};
-
-run(fs.readFileSync(args.i, 'utf8'), args.f);
+  },
+  R.compose(
+    (markdown) => {
+      process.stdout.write(markdown);
+      process.exit();
+    },
+    R.join('\n'),
+    R.prepend(`# ${filterTag}`),
+    R.append('___\n[home](index.md\n'),
+    R.flatten,
+    R.values,
+    R.mapObjIndexed((value, topic) => (R.compose(
+      R.prepend(`\n ## ${topic}`),
+      R.pluck('markdown'),
+    )(value))),
+    R.groupBy(R.prop('topic')),
+  ),
+);

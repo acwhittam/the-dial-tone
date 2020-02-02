@@ -214,7 +214,6 @@ https://github.com/pcbje/ggraph | Tools/Websites | #11
 https://www.gettoby.com/ | Tools/Websites | #11
 https://github.com/bevacqua/dragula | Tools/Websites | #11
 https://www.stephanboyer.com/post/122/does-google-execute-javascript | News/Other | #11
-https://plus.google.com/+RipRowan/posts/eVeouesvaVX | News/Other | #11
 http://chrisguillebeau.com/time-management-strategy/ | News/Other | #11
 http://www.bbc.com/news/technology-37974267 | News/Other | #11
 https://medium.com/@borja/a-glimpse-into-the-apollo-guidance-computer-8ee06e5e1a5c#.lg4fe4okd | News/Other | #11
