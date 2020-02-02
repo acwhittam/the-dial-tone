@@ -118,11 +118,11 @@ parallel(Infinity)(futures).fork(
     },
     R.join('\n'),
     R.prepend(`# ${filterTag}`),
-    R.append('___\n[home](index.md\n'),
+    R.append('___\n[home](index.md)\n'),
     R.flatten,
     R.values,
     R.mapObjIndexed((value, topic) => (R.compose(
-      R.prepend(`\n ## ${topic}`),
+      R.prepend(`\n## ${topic}`),
       R.pluck('markdown'),
     )(value))),
     R.groupBy(R.prop('topic')),
