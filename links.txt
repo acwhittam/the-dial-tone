@@ -1496,3 +1496,23 @@ https://queue.acm.org/detail.cfm?ref=rss&id=3380780  | Development/Releases | #6
 https://blog.novoda.com/how-to-make-innovation-labs-succeed/ | Management/Culture | #68
 https://www.goodreads.com/book/show/39857666-from-russia-with-blood?from_search=true&qid=GLurVQErrU | Books/Podcasts/Videos | #68
 https://www.cbsnews.com/news/zaza-kanto-a-capella-group-young-boys-songs-of-joy-rise-from-the-slums-of-madagascar/ |  The Speed Dial | #68
+https://www.politico.com/magazine/story/2019/09/08/shawn-rosenberg-democracy-228045 | News/Other | #69
+https://www.goodreads.com/book/show/28512671-everybody-lies | Books/Podcasts/Videos | #69
+https://armandalegshow.com/ | Books/Podcasts/Videos | #69
+https://youtu.be/zF5CrPXMqjQ| Books/Podcasts/Videos | #69
+https://www.wsj.com/articles/u-s-district-judge-expected-to-rule-in-favor-of-sprint-t-mobile-merger-11581376688?mod=hp_lead_pos1 | News/Other | #69
+https://www.newyorker.com/magazine/2019/09/23/who-speaks-for-crazy-horse | News/Other | #69
+https://hbr.org/2020/01/time-management-is-about-more-than-life-hacks | Management/Culture | #69
+http://www.simonweckert.com/googlemapshacks.html  | News/Other | #69
+https://changelog.com/posts/monoliths-are-the-future   | Development/Releases | #69
+https://blog.cloudflare.com/javascript-libraries-are-almost-never-updated/ | Technical | #69
+https://www.nytimes.com/2020/01/31/health/pharmacists-medication-errors.html | News/Other | #69
+https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)  | Technical | #69
+https://www.newyorker.com/magazine/2020/02/03/the-woman-shaking-up-the-diamond-industry| News/Other | #69
+https://www.innoq.com/en/blog/do-we-worship-complexity/  | Development/Releases | #69
+http://russolsen.com/articles/2012/08/09/the-best-programming-advice-i-ever-got.html  | Development/Releases | #69
+https://www.protocol.com/silicon-valley-tech-shuttles | News/Other | #69
+http://rachelbythebay.com/w/2020/02/08/miss/  | Development/Releases | #69
+https://www.theatlantic.com/magazine/archive/2020/03/the-2020-disinformation-war/605530/ |  The Speed Dial | #69
+http://www.paulgraham.com/noob.html  |The Speed Dial | #69
+https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html |  The Speed Dial | #69
