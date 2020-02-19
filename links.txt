@@ -1508,7 +1508,7 @@ https://changelog.com/posts/monoliths-are-the-future   | Development/Releases | 
 https://blog.cloudflare.com/javascript-libraries-are-almost-never-updated/ | Technical | #69
 https://www.nytimes.com/2020/01/31/health/pharmacists-medication-errors.html | News/Other | #69
 https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)  | Technical | #69
-https://www.newyorker.com/magazine/2020/02/03/the-woman-shaking-up-the-diamond-industry| News/Other | #69
+https://www.newyorker.com/magazine/2020/02/03/the-woman-shaking-up-the-diamond-industry  | News/Other | #69
 https://www.innoq.com/en/blog/do-we-worship-complexity/  | Development/Releases | #69
 http://russolsen.com/articles/2012/08/09/the-best-programming-advice-i-ever-got.html  | Development/Releases | #69
 https://www.protocol.com/silicon-valley-tech-shuttles | News/Other | #69
@@ -1516,3 +1516,23 @@ http://rachelbythebay.com/w/2020/02/08/miss/  | Development/Releases | #69
 https://www.theatlantic.com/magazine/archive/2020/03/the-2020-disinformation-war/605530/ |  The Speed Dial | #69
 http://www.paulgraham.com/noob.html  |The Speed Dial | #69
 https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html |  The Speed Dial | #69
+https://hbr.org/2020/02/dont-let-negativity-sink-your-organization  | Management/Culture | #70
+https://www.thoughtworks.com/insights/blog/how-improv-comedy-made-me-better-technologist   | Management/Culture | #70
+https://insight.kellogg.northwestern.edu/article/boost-creativity-brainstorm-embarrassment | Management/Culture | #70
+https://www.brandonsmith.ninja/blog/three-types-of-data  | Technical | #70
+https://understandlegacycode.com/blog/avoid-rewriting-a-legacy-system-from-scratch-by-strangling-it/   | Development/Releases | #70
+https://davidwalsh.name/lazy-object-initialization  | Technical | #70
+https://foreignpolicy.com/2020/02/14/map-cartography-shaped-war-peace-end-of-history/ | News/Other | #70
+https://www.wired.com/story/signal-encrypted-messaging-features-mainstream/  | News/Other | #70
+https://www.ft.com/content/92c6d068-384e-11ea-ac3c-f68c10993b04 | News/Other | #70
+https://slack.engineering/how-big-technical-changes-happen-at-slack-f1569d25ee7b  | Development/Releases | #70
+https://queue.acm.org/detail.cfm?ref=rss&id=3383461   | Management/Culture | #70
+https://www.bitlog.com/2020/02/12/why-are-we-so-bad-at-software-engineering/  | Development/Releases | #70
+https://corgibytes.com/blog/2020/02/12/technical-debt-isnt-just-technical/  |  The Speed Dial | #70
+https://genius.com/a/this-fake-travis-scott-song-created-by-artificial-intelligence-sounds-almost-like-the-real-thing | News/Other | #70
+https://www.theatlantic.com/ideas/archive/2020/02/how-mckinsey-destroyed-middle-class/605878/ |  The Speed Dial | #70
+https://nymag.com/intelligencer/2020/01/michael-barbaro-the-daily-podcast-new-york-times.html | News/Other | #70
+https://www.newyorker.com/news/the-future-of-democracy/what-happens-when-the-news-is-gone | News/Other | #70
+https://www.goodreads.com/en/book/show/39216480 | Books/Podcasts/Videos | #70
+https://www.youtube.com/watch?v=HJ_PP5rqLg0 | Books/Podcasts/Videos | #70
+https://www.youtube.com/watch?v=0X3M7WAeigQ | Books/Podcasts/Videos | #70
