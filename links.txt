@@ -1536,3 +1536,21 @@ https://www.newyorker.com/news/the-future-of-democracy/what-happens-when-the-new
 https://www.goodreads.com/en/book/show/39216480 | Books/Podcasts/Videos | #70
 https://www.youtube.com/watch?v=HJ_PP5rqLg0 | Books/Podcasts/Videos | #70
 https://www.youtube.com/watch?v=0X3M7WAeigQ | Books/Podcasts/Videos | #70
+https://www.npr.org/podcasts/510325/the-indicator-from-planet-money | Books/Podcasts/Videos | #71
+https://blog.nelhage.com/post/reflections-on-performance/ | Development/Releases | #71
+https://www.theatlantic.com/health/archive/2020/02/covid-vaccine/607000/ |  The Speed Dial | #71
+https://www.vulture.com/2020/02/spread-of-corporate-speak.html  |  The Speed Dial | #71
+https://www.youtube.com/watch?v=OqEeIG8aPPk |  The Speed Dial | #71
+https://www.bbc.com/news/world-asia-51691967   | News/Other | #71
+https://medium.com/@paulosman/production-oriented-development-8ae05f8cc7ea  | Development/Releases | #71
+https://www.benkuhn.net/hard  | Development/Releases | #71
+https://businessfinancing.co.uk/the-oldest-company-in-almost-every-country/ | News/Other | #71
+https://www.npr.org/2020/02/21/807133509/enjoy-the-extra-day-off-more-bosses-give-4-day-workweek-a-try | News/Other | #70
+http://www.paulgraham.com/useful.html  | News/Other | #71
+https://blog.nelhage.com/post/systems-that-defy-understanding/ | Technical | #71
+https://blog.cloudflare.com/when-bloom-filters-dont-bloom/  | Technical | #71
+https://www.goodreads.com/book/show/40672036-digital-minimalism | Books/Podcasts/Videos | #71
+https://hbr.org/podcast/2017/08/why-everyone-should-see-themselves-as-a-leader  | Management/Culture | #71
+https://www8.gsb.columbia.edu/articles/ideas-work/leading-neglected-competency  | Management/Culture | #71
+https://www.nytimes.com/2020/02/29/world/asia/parasite-seoul-south-korea.html | News/Other | #71
+https://www.youtube.com/watch?v=zzBVvyBWDD4 | Books/Podcasts/Videos | #71
